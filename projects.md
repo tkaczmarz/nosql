@@ -48,7 +48,7 @@ MongoDB, v3.4.x:
       originally written by Durran Jordan
 
  
-## Projekty indywidualne (zaliczenie)
+## Projekty indywidualne
 
 > A good demo is disproportionately valuable in big data science.<br>
 > — [Storytelling](http://en.wikipedia.org/wiki/Storytelling)
