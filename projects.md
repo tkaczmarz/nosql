@@ -91,16 +91,7 @@ Michael Hartl, [Learn Enough Git to Be Dangerous](https://www.learnenough.com/gi
 * [Ławrynowicz Jacek](https://github.com/jlawrynowicz/projekty-nosql) (MongoDB for Java Developers)
 * [Nadoba Adam](https://github.com/anadoba/projekty-nosql) (MongoDB Performance)
 
----
 
+<!--
 20. Soliwodzki Mateusz 22.02 1.03 08.03
-
-
-## Projekty zespołowe (egzamin = średnia z zaliczenia i MapReduce)
-
-Pull request według schematu:
-```
-1. [Nazwisko, Imię](link do repozytorium na GitHub, GitLab albo Bitbucket).
-```
-
-**Uwaga:** W pliku _README.md_ w repo należy wpisać wszystkich autorów.
+-->
