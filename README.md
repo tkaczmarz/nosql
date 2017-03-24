@@ -2,11 +2,11 @@
 
 Terminarz rozliczania się z [projektów](http://wbzyl.inf.ug.edu.pl/nosql/zadania):
 
-| projekt              | zadanie                    | deadline    |            |
-|----------------------|----------------------------|-------------|------------|
-| przygotowanie danych | EDA (:earth_africa:, 1, 2) | 22.03.2017  | zaliczenie |
-| prezentacja          | Aggregation Pipeline (3)   | 23.04.2017  | egzamin    |
-| prezentacja          | MapReduce (4)              | 21.05.2017  | egzamin    |
+| projekt              | zadanie                        | deadline    |            |
+|----------------------|--------------------------------|-------------|------------|
+| przygotowanie danych | EDA (zadanie GEO)              | 22.03.2017  | zaliczenie |
+| prezentacja          | Aggregation Pipeline (1 lub 2) | 23.04.2017  | egzamin    |
+| prezentacja          | MapReduce (3)                  | 21.05.2017  | egzamin    |
 
 Link do **prywatnego** repozytorium z rozwiązaniami zadań należy wpisać odpowiednio
 w pliku [projects.md](projects.md).
