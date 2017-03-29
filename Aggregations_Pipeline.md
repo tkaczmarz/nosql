@@ -14,7 +14,14 @@
 1. `$sample` – randomly selects the specified number of documents from its input
 1. `$lookup` – performs a left outer join to another collection in the same database
 1. `$redact` – incorporates the functionality of `$project` and `$match`
-
+1. `$graphLookup` – performs a recursive search on a collection
+1. `$count` – returns a count of the number of documents at this stage of the aggregation pipeline
+1. `$addFields` – adds new fields to documents
+1. `$sortByCount` – groups incoming documents based on the value of a specified
+  expression, then computes the count of documents in each distinct group
+1. `$facet` – processes multiple aggregation pipelines within a single stage
+  on the same set of input documents
+1. `$collStats` – returns statistics regarding a collection or view
 
 See also [expression operators](http://docs.mongodb.org/manual/reference/operator/aggregation/#expression-operators).
 
