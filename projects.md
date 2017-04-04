@@ -26,6 +26,9 @@ EDA.
 * [TopoJSON :globe_with_meridians:](https://github.com/topojson/topojson)
 * [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) – Wikipedia article:
   „offspring of GeoJSON is TopoJSON”
+* [Ogre](http://ogre.adc4gis.com/) – a web client (service) that translates
+  spatial files into GeoJSON using the ogr2ogr command line tool for use
+  in JavaScript web applications and frameworks
 
 Elasticsearch + Kibana.
 
@@ -47,7 +50,7 @@ MongoDB, v3.4.x:
       the ODM officially supported by MongoDB is Mongoid,
       originally written by Durran Jordan
 
- 
+
 ## Projekty indywidualne
 
 > A good demo is disproportionately valuable in big data science.<br>
