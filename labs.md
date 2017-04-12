@@ -3,7 +3,8 @@
 > A good demo is disproportionately valuable in big data science.<br>
 > — [Storytelling](http://en.wikipedia.org/wiki/Storytelling)
 
-Pull request według schematu:
+Pull request do tego pliku według schematu:
+
 ```
 1. [Nazwisko, Imię](link do repozytorium na GitHub, GitLab albo Bitbucket).
 ```
@@ -34,5 +35,3 @@ Michael Hartl, [Learn Enough Git to Be Dangerous](https://www.learnenough.com/gi
 23. [Tyczyński Michał](https://github.com/mtyczynski/nosql) (Reddit comments from 15 days) 1.03
 24. [Walczak Marta](https://github.com/mawala/projekty-nosql)
 25. [Zawistowski Łukasz](https://github.com/lzawistowski/nosql)
-
-----
