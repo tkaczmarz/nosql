@@ -1,4 +1,4 @@
-## Aggregation Pipeline, MongoDB v3.2
+## Aggregation Pipeline, MongoDB v3.4.3
 
 [Stage operators](https://docs.mongodb.org/master/reference/operator/aggregation):
 
