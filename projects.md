@@ -66,6 +66,6 @@ Wpisać nazwę zespołu z linkiem do repozytorium z kodem i dokumentacją.
 
 ### MongoDB University
 
-* [Ławrynowicz Jacek](https://github.com/jlawrynowicz/projekty-nosql) (MongoDB for Java Developers)
-* [Nadoba Adam](https://github.com/anadoba/projekty-nosql) (MongoDB Performance)
-* [Sielachowicz Paweł](https://github.com/psielachowicz/NoSQLDB) (MongoDB for (NodeJS) Developers)
+* [Ławrynowicz Jacek](https://github.com/jlawrynowicz/projekty-nosql). Diagnostics and Debugging.
+* [Nadoba Adam](https://github.com/anadoba/projekty-nosql). MongoDB Performance.
+* [Sielachowicz Paweł](https://github.com/psielachowicz/NoSQLDB). MongoDB for (NodeJS) Developers.
