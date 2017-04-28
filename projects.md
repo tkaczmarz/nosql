@@ -62,6 +62,8 @@ Wpisać nazwę zespołu z linkiem do repozytorium z kodem i dokumentacją.
 1. [Bie](https://github.com/abie115/nosql-exam)
 1. [Michał Kiełb, Łukasz Szlas, Tomasz Smogór](https://github.com/mkielb/nosql-egzamin)
 1. [Adrian Pieper](https://github.com/adrpieper/NoSQL-exam)
+1. [Krystian Kisielewski](https://bitbucket.org/nosql2017/nosql/wiki/Egzamin)
+1. [Anomalia](https://github.com/mawala/egzamin-nosql)
 
 
 ### MongoDB University
