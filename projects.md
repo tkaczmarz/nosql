@@ -73,4 +73,4 @@ Wpisać nazwę zespołu z linkiem do repozytorium z kodem i dokumentacją.
 
 * [Ławrynowicz Jacek](https://github.com/jlawrynowicz/projekty-nosql). Diagnostics and Debugging.
 * [Nadoba Adam](https://github.com/anadoba/projekty-nosql). MongoDB Performance.
-* [Sielachowicz Paweł](https://github.com/psielachowicz/NoSQLDB). MongoDB for (NodeJS) Developers.
+* [Sielachowicz Paweł](http://university.mongodb.com/course_completion/6115c5a0-ca5e-4641-98ab-2d43ac33). MongoDB for (NodeJS) Developers.
