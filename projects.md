@@ -58,6 +58,7 @@ Wpisać nazwę zespołu z linkiem do repozytorium z kodem i dokumentacją.
 1. [ABC](https://github.com/egzamin/nosql/blob/master/Aggregations_Pipeline.md)
 1. [Białe Mielone](https://github.com/romety2/nosql)
 1. [Sebastian Czarnecki](https://github.com/sebcza/nosql-egzamin)
+1. [Piotr Kacprowicz, Damian Centek, Daniel Banasiak](https://github.com/Undauted/NoSQL-exam)
 1. [Michał Tyczyński](https://github.com/mtyczynski/egzaminnosql)
 1. [Patrycja Cieślak, Łukasz Zawistowski](https://github.com/lzawistowski/nosql-egzamin)
 
