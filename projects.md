@@ -71,7 +71,7 @@ Wpisać nazwę zespołu z linkiem do repozytorium z kodem i dokumentacją.
 1. [Białe Mielone](https://github.com/romety2/nosql)
 1. [Sebastian Czarnecki](https://github.com/sebcza/nosql-egzamin)
 1. [Piotr Kacprowicz, Damian Centek, Daniel Banasiak](https://github.com/Undauted/NoSQL-exam)
-
+1. [Marek Strzała](https://github.com/MarekAG/nosql-egzamin)
 
 ### MongoDB University
 
