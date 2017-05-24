@@ -55,9 +55,7 @@ MongoDB, v3.4.x:
 
 Wpisać nazwę zespołu z linkiem do repozytorium z kodem i dokumentacją.
 
-1. [ABC](https://github.com/egzamin/nosql/blob/master/Aggregations_Pipeline.md)
 1. [Michał Tyczyński](https://github.com/mtyczynski/egzaminnosql)
-1. [Patrycja Cieślak, Łukasz Zawistowski](https://github.com/lzawistowski/nosql-egzamin)
 
 ----
 
@@ -72,6 +70,7 @@ Wpisać nazwę zespołu z linkiem do repozytorium z kodem i dokumentacją.
 1. [Sebastian Czarnecki](https://github.com/sebcza/nosql-egzamin)
 1. [Piotr Kacprowicz, Damian Centek, Daniel Banasiak](https://github.com/Undauted/NoSQL-exam)
 1. [Marek Strzała](https://github.com/MarekAG/nosql-egzamin)
+1. [Patrycja Cieślak, Łukasz Zawistowski](https://github.com/lzawistowski/nosql-egzamin)
 
 ### MongoDB University
 
