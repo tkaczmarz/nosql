@@ -52,7 +52,7 @@ MongoDB, v3.4.x:
 
 ## Projekty zespołowe (egzamin = średnia z prezentacji i zaliczenia)
 
-Wpisać nazwę zespołu z linkiem do repozytorium z kodem i dokumentacją.
+Poniżej proszę wpisać link do repozytorium z kodem i dokumentacją projektu.
 
 <!--
 
