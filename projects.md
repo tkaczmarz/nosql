@@ -50,7 +50,7 @@ MongoDB, v3.4.x:
       the ODM officially supported by MongoDB is Mongoid,
       originally written by Durran Jordan
 
-## Projekty zespołowe (egzamin = średnia z prezentacji i zaliczenia)
+## Projekty zespołowe (egzamin)
 
 Poniżej proszę wpisać link do repozytorium z kodem i dokumentacją projektu.
 
