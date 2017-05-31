@@ -50,14 +50,11 @@ MongoDB, v3.4.x:
       the ODM officially supported by MongoDB is Mongoid,
       originally written by Durran Jordan
 
-
 ## Projekty zespołowe (egzamin = średnia z prezentacji i zaliczenia)
 
 Wpisać nazwę zespołu z linkiem do repozytorium z kodem i dokumentacją.
 
-1. [Michał Tyczyński](https://github.com/mtyczynski/egzaminnosql)
-
-----
+<!--
 
 1. [Anomalia](https://github.com/mawala/egzamin-nosql)
 1. [Baranki](https://github.com/kropeq/baranki)
@@ -71,9 +68,13 @@ Wpisać nazwę zespołu z linkiem do repozytorium z kodem i dokumentacją.
 1. [Piotr Kacprowicz, Damian Centek, Daniel Banasiak](https://github.com/Undauted/NoSQL-exam)
 1. [Marek Strzała](https://github.com/MarekAG/nosql-egzamin)
 1. [Patrycja Cieślak, Łukasz Zawistowski](https://github.com/lzawistowski/nosql-egzamin)
+1. [Michał Tyczyński](https://github.com/mtyczynski/egzaminnosql)
 
 ### MongoDB University
 
 * [Ławrynowicz Jacek](https://github.com/jlawrynowicz/projekty-nosql). Diagnostics and Debugging.
 * [Nadoba Adam](https://github.com/anadoba/projekty-nosql). MongoDB Performance.
 * [Sielachowicz Paweł](http://university.mongodb.com/course_completion/6115c5a0-ca5e-4641-98ab-2d43ac33). MongoDB for (NodeJS) Developers.
+
+-->
+
