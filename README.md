@@ -1,46 +1,30 @@
 # Technologie NoSQL
 
-Terminarz rozliczania się z [projektów](http://wbzyl.inf.ug.edu.pl/nosql/zadania):
+Terminarz rozliczania się z projektów na zaliczenie i egzamin
 
-| projekt               | zadanie                  | deadline    |            |
-|-----------------------|--------------------------|-------------|------------|
-| przygotowanie danych  | EDA (zadanie GEO, 1)     | 22.03.2017  | zaliczenie |
-| akceptacja agregacji  | Aggregation Pipeline (2) | 23.04.2017  | egzamin    |
-| akceptacja map-reduce | MapReduce (3)            | 14.05.2017  | egzamin    |
+| projekt     | zadanie                  | deadline    |
+|-------------|--------------------------|-------------|
+| zaliczenie  | A                        | 00.00.2018  |
+| egzamin     | B                        | 00.00.2018  |
 
-Link do **prywatnego** repozytorium z rozwiązaniami zadań należy wpisać odpowiednio
-w pliku [projects.md](projects.md).
-
-[Link do szablonu repozytorium](https://github.com/egzamin/solutions-nosql).
+TODO: [Link do szablonu repozytorium](https://github.com/egzamin/solutions-nosql).
 
 
-## Podręczne linki
+## Zaliczenie
 
-1. [Git Tips](https://github.com/git-tips/tips) – most commonly used git tips and tricks
-1. [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
-1. [Emoji cheat sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet) –
-  do wykorzystania w dokumentacji.
+Sample app for the MongoDB Ruby driver](https://github.com/nosql/ruby-driver-sample-app)
+forked from [steveren/ruby-driver-sample-app](https://github.com/steveren/ruby-driver-sample-app).
 
-Wikimedia:
+```sh
+git clone git@github.com:nosql/ruby-driver-sample-app.git
+```
 
-1. [Data Analysis Task](https://github.com/wikimedia-research/Discovery-Hiring-Analyst-2016) –
-  task description and data for candidates applying to be a Data Analyst
-  in the Discovery department at Wikimedia Foundation
-1. [Traffic Analyst task](https://github.com/wikimedia-research/traffic_task) –
-  task for candidates for the Wikimedia Foundation's traffic analyst job
-1. [S&D Data Analyst task](https://github.com/wikimedia-research/search_task) –
-  task for the Search & Discovery data analyst job
+TODO
 
-Więcej danych:
 
-* [Watching Our World Unfold](http://www.gdeltproject.org):
-  - [Querying, Analyzing and Downloading](http://www.gdeltproject.org/data.html);
-    [raw data files](http://www.gdeltproject.org/data.html)
-* [NOAA](https://www.ncdc.noaa.gov/data-access) –
-  National Centers for Environmental Information (US)
-* [News API](https://newsapi.org) – a simple and easy-to-use API that returns
-  JSON metadata for the headlines currently published on
-  a range of news sources and blogs (+70)
+## Egzamin
+
+TODO
 
 
 ## Simple Rules for Reproducible Computations
@@ -67,21 +51,10 @@ Plus two more rules:
 1. Record all intermediate results, when possible in standardized formats.
 1. Connect textual statements to underlying results.
 
-Three more links:
 
-* [The Quartz guide to bad data](https://github.com/Quartz/bad-data-guide) –
-  an exhaustive reference to problems seen in real-world data along
-  with suggestions on how to resolve them.
-* [How to share data with a statistician](https://github.com/jtleek/datasharing) –
-  it is critical that you include the rawest form of the data that you have access to.
-* Przykładowy (i interesujący) projekt w SQL:
-  Georgios Gousios.
-  [Assessment of the pull based development model, as implemented by Github](https://github.com/gousiosg/pullreqs)
+## Praca z gigabajtowymi plikami danych
 
-
-## Gigabajtowe pliki z danymi
-
-Spakowany plik _RC_2015-01.bz2_ zajmuje na dysku 5_452_413_560 B,
+Przykład: Spakowany plik _RC_2015-01.bz2_ zajmuje na dysku 5_452_413_560 B,
 czyli ok. 5.5 GB. Każda linijka pliku to jeden obiekt JSON, komentarz
 z serwisu Reddit, z tekstem komentarza, autorem, itd.
 Wszystkich komentarzy/JSON-ów powinno być 53_851_542.
@@ -103,30 +76,32 @@ time bunzip2 -c RC_2015-01.bz2 | mongoimport --drop --host 127.0.0.1 -d test -c 
 
 ![RC mongoimport](images/RC_mongoimport_WiredTiger.png)
 
-
-Plik _primer-dataset.json_ informacje o restauracjach w Nowym Jorku.
-
-```bash
-wget https://raw.githubusercontent.com/mongodb/docs-assets/primer-dataset/primer-dataset.json
-cat dataset.json | gzip --stdout > primer-dataset.json.gz
-rm dataset.json
-
-gunzip -c primer-dataset.json.gz | shuf -n 1 # macOS, brew install coreutils (gshuf)
-gunzip -c primer-dataset.json.gz | rl   -c 1 # macOS, brew install randomize-lines
-```
-
-Unikamy zapisywania plików na dysku.
+Plik _restaurants.json_ zawiera informacje o restauracjach w Nowym Jorku.
 
 ```bash
-# curl -s 'https://inf.ug.edu.pl/plan/?format=json' \
-#   | mongoimport --drop --jsonArray -c plan
-# curl -s 'https://inf.ug.edu.pl/plan/?format=json' \
-#   | jq -c '.[]' \
-#   | mongoimport --drop -c plan
-curl -s https://raw.githubusercontent.com/mongodb/docs-assets/primer-dataset/primer-dataset.json \
-  | mongoimport --drop -c restaurants
-# use `shuf -n 100` on Linux
-curl -s https://raw.githubusercontent.com/mongodb/docs-assets/primer-dataset/primer-dataset.json \
+curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json \
+  | gzip --stdout  > restaurants.json.gz
+
+  #                          use  shuf -n 1  on Linux
+  gunzip -c restaurants.json.gz | shuf -n 1  # macOS, brew install coreutils (gshuf)
+  gunzip -c restaurants.json.gz | rl   -c 1  # macOS, brew install randomize-lines
+  ```
+
+IMPORTANT: Jeśli to tylko możliwe, to unikamy zapisywania plików na dysku.
+Zwłaszcza dużych!
+
+```bash
+curl -s 'https://inf.ug.edu.pl/plan/?format=json' \
+  | mongoimport --drop --jsonArray -c plan
+
+curl -s 'https://inf.ug.edu.pl/plan/?format=json' \
+  | jq -c '.[]' \
+  | mongoimport --drop -c plan
+
+curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/restaurants.json \
   | gshuf -n 100 \
+  | mongoimport --drop -c restaurants100
+
+curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json \
   | mongoimport --drop -c restaurants
 ```
