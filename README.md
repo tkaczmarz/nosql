@@ -87,8 +87,7 @@ curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighbo
   gunzip -c restaurants.json.gz | rl   -c 1  # macOS, brew install randomize-lines
   ```
 
-IMPORTANT: Jeśli to tylko możliwe, to unikamy zapisywania plików na dysku.
-Zwłaszcza dużych!
+IMPORTANT: Unikamy zapisywania plików na dysku. Zwłaszcza dużych plików!
 
 ```bash
 curl -s 'https://inf.ug.edu.pl/plan/?format=json' \
