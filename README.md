@@ -42,15 +42,15 @@ git clone git@github.com:nosql/ruby-driver-sample-app.git
 Provide public access to scripts, runs, and results:
 
 1. Version control all custom scripts:
-  - avoid writing code
-  - **write thin scripts** and use standard tools and use standard UNIX
-    commands to chain things together.
+    - avoid writing code
+    - **write thin scripts** and use standard tools and use standard UNIX
+      commands to chain things together.
 1. Avoid manual data manipulation steps:
-  - use a build system, for example [**make**](http://bost.ocks.org/mike/make/),
-    and have all results produced automatically by build targets
-  - if it’s not automated, it’s not part of the project,
-    i.e. have an idea for a graph or an analysis?
-    automate its generation
+    - use a build system, for example [**make**](http://bost.ocks.org/mike/make/),
+      and have all results produced automatically by build targets
+    - if it’s not automated, it’s not part of the project,
+      i.e. have an idea for a graph or an analysis?
+      automate its generation
 1. Use a markup, for example
    [**Markdown**](http://daringfireball.net/projects/markdown/syntax), or
    [**AsciiDoctor**](http://asciidoctor.org)
