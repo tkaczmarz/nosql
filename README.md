@@ -19,7 +19,7 @@ Terminarz rozliczania się z projektów na zaliczenie i egzamin
     * [NodeJS](http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start)
 
 
-## Projekt na zaliczenie
+## Projekty na zaliczenie
 
 [Sample app for the MongoDB Ruby driver](https://github.com/nosql/ruby-driver-sample-app)
 forked from [steveren/ruby-driver-sample-app](https://github.com/steveren/ruby-driver-sample-app).
