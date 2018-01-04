@@ -7,24 +7,34 @@ Terminarz rozliczania się z projektów na zaliczenie i egzamin
 | zaliczenie  | A                        | 00.00.2018  |
 | egzamin     | B                        | 00.00.2018  |
 
-TODO: [Link do szablonu repozytorium](https://github.com/egzamin/solutions-nosql).
+
+## Materiały do wykładów
+
+1. [The MongoDB 3.6 Manual](https://docs.mongodb.com/manual)
+  * [Introduction to MongoDB](https://docs.mongodb.com/manual/introduction)
+1. Getting Started with MongoDB:
+  * [MongoDB Shell Edition](https://docs.mongodb.com/getting-started/shell)
+1. Drivers Manuals:
+  * [Ruby](https://docs.mongodb.com/ruby-driver/master/quick-start)
+  * [NodeJS](http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start)
 
 
-## Zaliczenie
+## Projekt na zaliczenie
 
-Sample app for the MongoDB Ruby driver](https://github.com/nosql/ruby-driver-sample-app)
+[Sample app for the MongoDB Ruby driver](https://github.com/nosql/ruby-driver-sample-app)
 forked from [steveren/ruby-driver-sample-app](https://github.com/steveren/ruby-driver-sample-app).
 
 ```sh
 git clone git@github.com:nosql/ruby-driver-sample-app.git
 ```
 
-TODO
 
+## Projekty na egzamin
 
-## Egzamin
+[Aggregation](https://docs.mongodb.com/manual/aggregation/):
 
-TODO
+* [Aggregation Pipeline](https://docs.mongodb.com/manual/aggregation/#aggregation-pipeline)
+* [Map-Reduce](https://docs.mongodb.com/manual/aggregation/#map-reduce)
 
 
 ## Simple Rules for Reproducible Computations
