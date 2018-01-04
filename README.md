@@ -11,12 +11,12 @@ Terminarz rozliczania się z projektów na zaliczenie i egzamin
 ## Materiały do wykładów
 
 1. [The MongoDB 3.6 Manual](https://docs.mongodb.com/manual)
-  * [Introduction to MongoDB](https://docs.mongodb.com/manual/introduction)
+    * [Introduction to MongoDB](https://docs.mongodb.com/manual/introduction)
 1. Getting Started with MongoDB:
-  * [MongoDB Shell Edition](https://docs.mongodb.com/getting-started/shell)
+    * [MongoDB Shell Edition](https://docs.mongodb.com/getting-started/shell)
 1. Drivers Manuals:
-  * [Ruby](https://docs.mongodb.com/ruby-driver/master/quick-start)
-  * [NodeJS](http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start)
+    * [Ruby](https://docs.mongodb.com/ruby-driver/master/quick-start)
+    * [NodeJS](http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start)
 
 
 ## Projekt na zaliczenie
