@@ -124,6 +124,8 @@ curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighbo
 ```sh
 db.restaurants.find( {name: /Feast/} ).explain("executionStats").executionStats
 db.restaurants.explain("executionStats").find( {name: /Feast/} ).count()
+
+db.restaurants.find( {name: /Feast/} ).explain("executionStats").serverInfo
 ```
 
 Do *mniej* dokładnych pomiarów można użyć polecenia Bash _time_.
