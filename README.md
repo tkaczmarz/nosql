@@ -114,3 +114,16 @@ curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/restaur
 curl -s https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json \
   | mongoimport --drop -c restaurants
 ```
+
+
+## Analyzing Query Performance
+
+* [Analyze Query Performance](https://docs.mongodb.com/manual/tutorial/analyze-query-plan/).
+* [Explain Results](https://docs.mongodb.com/manual/reference/explain-results/)
+
+```sh
+db.restaurants.find( {name: /Feast/} ).explain("executionStats").executionStats
+db.restaurants.explain("executionStats").find( {name: /Feast/} ).count()
+```
+
+Do *mniej* dokładnych pomiarów można użyć polecenia Bash _time_.
