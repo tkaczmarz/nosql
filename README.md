@@ -26,8 +26,9 @@ Aplikacja uruchamiana z linii poleceń korzystająca z jednego
 C, C++, C#, Java, Node.js, Perl, Python, Scala lub Ruby.
 Przykład takiej aplikacji [Sample app for the MongoDB Ruby driver](https://github.com/steveren/ruby-driver-sample-app)
 ([mój fork](https://github.com/nosql/ruby-driver-sample-app)).
+Wyniki należy zamienić na grafiki, mapki, stronę HTM itp.
 
-Plik **README.md** lub **README.adoc** powinien zawierać dokumentację projektu
+Plik **README.{md,adoc,html}** powinien zawierać dokumentację projektu
 oraz imię i nazwisko autora.
 
 Dodatkowe punkty za użycie **Replica Set** (ale bez **shardingu**);
@@ -49,8 +50,9 @@ lub jednym z języków Node.js, Python lub Ruby. Wyniki agregacji można
 przekształcać za pomocą poleceń powłoki Bash, programu [jq](https://stedolan.github.io/jq/),
 [R](https://www.r-project.org) lub innych programów zainstalowanych na Sigmie.
 
-Plik **README.md** lub **README.adoc** powinien zawierać dokumentację projektu
+Plik **README.{md,adoc,html}** powinien zawierać dokumentację projektu
 oraz imiona i nazwiska autorów.
+Wyniki agregacji należy zamienić na grafiki, mapki, stronę HTML itp.
 
 
 ## Simple Rules for Reproducible Computations
