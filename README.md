@@ -7,6 +7,9 @@ Terminarz rozliczania się z projektów na zaliczenie i egzamin
 | Zaliczenie  | 00.03.2018  |
 | Egzamin     | 01.05.2018  |
 
+Projekty oddane do tygodnia po wyznaczonym terminie – ocena obniżona,
+oddane później – egzamin poprawkowy.
+
 
 ## Materiały do wykładów
 
