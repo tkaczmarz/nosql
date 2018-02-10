@@ -24,7 +24,7 @@ Terminarz rozliczania się z projektów na zaliczenie i egzamin
 Aplikacja uruchamiana z linii poleceń korzystająca z jednego
 [MongoDB Drivers](https://docs.mongodb.com/ecosystem/drivers/):
 C, C++, C#, Java, Node.js, Perl, Python, Scala lub Ruby.
-Przykład takiej aplikacji [Sample app for the MongoDB Ruby driver](https://github.com/steveren/ruby-driver-sample-app)
+Przykład takiej aplikacji „[Sample app for the MongoDB Ruby driver](https://github.com/steveren/ruby-driver-sample-app)”
 ([mój fork](https://github.com/nosql/ruby-driver-sample-app)).
 Wyniki należy zamienić na grafiki, mapki, stronę HTM itp.
 
