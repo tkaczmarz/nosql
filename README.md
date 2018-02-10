@@ -19,22 +19,40 @@ Terminarz rozliczania się z projektów na zaliczenie i egzamin
     * [NodeJS](http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start)
 
 
-## Projekty na zaliczenie
+## Projekt na zaliczenie
 
-[Sample app for the MongoDB Ruby driver](https://github.com/nosql/ruby-driver-sample-app)
-forked from [steveren/ruby-driver-sample-app](https://github.com/steveren/ruby-driver-sample-app).
+Aplikacja uruchamiana z linii poleceń napisana korzystająca z jednego
+[MongoDB Drivers](https://docs.mongodb.com/ecosystem/drivers/) dla języka:
+C, C++, C#, Java, Node.js, Perl, Python, Scala lub Ruby.
 
-```sh
-git clone git@github.com:nosql/ruby-driver-sample-app.git
-```
+Przykład takiej aplikacji – [Sample app for the MongoDB Ruby driver](https://github.com/nosql/ruby-driver-sample-app).
+
+Dodatkowe punkty za użycie [Replica Set] ale bez **shardingu**;
+zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tutorial/convert-standalone-to-replica-set/).
+
+Plik **README.md** powinien zawierać dokumentację projektu.
+
+<!-- forked from
+  [steveren/ruby-driver-sample-app](https://github.com/steveren/ruby-driver-sample-app).
+-->
 
 
 ## Projekty na egzamin
 
-[Aggregation](https://docs.mongodb.com/manual/aggregation/):
+[Agregacje](https://docs.mongodb.com/manual/aggregation/) korzystające z:
 
-* [Aggregation Pipeline](https://docs.mongodb.com/manual/aggregation/#aggregation-pipeline)
-* [Map-Reduce](https://docs.mongodb.com/manual/aggregation/#map-reduce)
+* [Aggregation Pipeline](https://docs.mongodb.com/manual/aggregation/#aggregation-pipeline) i [Map-Reduce](https://docs.mongodb.com/manual/aggregation/#map-reduce)
+
+Dane należy zapisać w Replica Set:
+
+* [Replica Set Deployment Tutorials](https://docs.mongodb.com/manual/administration/replica-set-deployment/)
+
+Do uruchamiania agregacji należy użyć skryptów napisanych w Bash
+lub jednym z języków Node.js, Python lub Ruby. Wyniki agregacji można
+przekształcać za pomocą poleceń powłoki Bash, programu [jq](https://stedolan.github.io/jq/),
+[R](https://www.r-project.org) lub innych programów zainstalowanych na Sigmie.
+
+Plik **README.md** powinien zawierać dokumentację projektu.
 
 
 ## Simple Rules for Reproducible Computations
