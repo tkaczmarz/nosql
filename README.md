@@ -42,9 +42,7 @@ zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tut
 
 * [Aggregation Pipeline](https://docs.mongodb.com/manual/aggregation/#aggregation-pipeline) i [Map-Reduce](https://docs.mongodb.com/manual/aggregation/#map-reduce)
 
-Dane należy zapisać w Replica Set:
-
-* [Replica Set Deployment Tutorials](https://docs.mongodb.com/manual/administration/replica-set-deployment/)
+Dane należy zapisać w Replica Set, zob. [Replica Set Deployment Tutorials](https://docs.mongodb.com/manual/administration/replica-set-deployment/)
 
 Do uruchamiania agregacji należy użyć skryptów napisanych w Bash
 lub jednym z języków Node.js, Python lub Ruby. Wyniki agregacji można
