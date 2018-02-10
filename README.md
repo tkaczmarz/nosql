@@ -30,7 +30,7 @@ Przykład takiej aplikacji „[Sample app for the MongoDB Ruby driver](https://g
 Plik **README.{md,adoc,html}** powinien zawierać dokumentację projektu
 oraz imię i nazwisko autora.
 Dokumentacja powinna zawierać grafiki, mapki, linki do stron HTML itp.
-wygenerowanych za pomocą skrypt(ów) aplikacji.
+wygenerowane za pomocą skrypt(ów) aplikacji.
 
 Dodatkowe punkty za użycie **Replica Set** (ale bez **shardingu**);
 zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tutorial/convert-standalone-to-replica-set/).
@@ -48,7 +48,7 @@ Dane należy zapisać w Replica Set:
 
 Do uruchamiania agregacji należy użyć skryptów napisanych w Bash
 lub jednym z języków Node.js, Python lub Ruby. Wyniki agregacji można
-przekształcać za pomocą poleceń powłoki Bash, programu [jq](https://stedolan.github.io/jq/),
+przekształcić za pomocą poleceń powłoki Bash, programu [jq](https://stedolan.github.io/jq/),
 [R](https://www.r-project.org) lub innych programów zainstalowanych na Sigmie.
 
 Plik **README.{md,adoc,html}** powinien zawierać dokumentację projektu
