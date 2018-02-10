@@ -2,10 +2,10 @@
 
 Terminarz rozliczania się z projektów na zaliczenie i egzamin
 
-| projekt     | zadanie                  | deadline    |
-|-------------|--------------------------|-------------|
-| zaliczenie  | A                        | 00.00.2018  |
-| egzamin     | B                        | 00.00.2018  |
+| Projekt     | Deadline    |
+|-------------|-------------|
+| Zaliczenie  | 00.03.2018  |
+| Egzamin     | 01.05.2018  |
 
 
 ## Materiały do wykładów
