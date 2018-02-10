@@ -26,10 +26,11 @@ Aplikacja uruchamiana z linii poleceń korzystająca z jednego
 C, C++, C#, Java, Node.js, Perl, Python, Scala lub Ruby.
 Przykład takiej aplikacji „[Sample app for the MongoDB Ruby driver](https://github.com/steveren/ruby-driver-sample-app)”
 ([mój fork](https://github.com/nosql/ruby-driver-sample-app)).
-Wyniki należy zamienić na grafiki, mapki, stronę HTM itp.
 
 Plik **README.{md,adoc,html}** powinien zawierać dokumentację projektu
 oraz imię i nazwisko autora.
+Dokumentacja powinna zawierać grafiki, mapki, linki do stron HTML itp.
+wygenerowanych za pomocą skrypt(ów) aplikacji.
 
 Dodatkowe punkty za użycie **Replica Set** (ale bez **shardingu**);
 zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tutorial/convert-standalone-to-replica-set/).
@@ -52,7 +53,8 @@ przekształcać za pomocą poleceń powłoki Bash, programu [jq](https://stedola
 
 Plik **README.{md,adoc,html}** powinien zawierać dokumentację projektu
 oraz imiona i nazwiska autorów.
-Wyniki agregacji należy zamienić na grafiki, mapki, stronę HTML itp.
+Wyniki agregacji należy zamienić na grafiki, mapki, stron HTML itp.
+i umieścić w dokumentacji.
 
 
 ## Simple Rules for Reproducible Computations
