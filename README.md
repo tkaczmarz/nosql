@@ -27,7 +27,7 @@ C, C++, C#, Java, Node.js, Perl, Python, Scala lub Ruby.
 
 Przykład takiej aplikacji – [Sample app for the MongoDB Ruby driver](https://github.com/nosql/ruby-driver-sample-app).
 
-Dodatkowe punkty za użycie [Replica Set] ale bez **shardingu**;
+Dodatkowe punkty za użycie **Replica Set** ale bez **shardingu**;
 zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tutorial/convert-standalone-to-replica-set/).
 
 Plik **README.md** lub **README.adoc** powinien zawierać dokumentację projektu
