@@ -30,8 +30,8 @@ Przykład takiej aplikacji – [Sample app for the MongoDB Ruby driver](https://
 Dodatkowe punkty za użycie [Replica Set] ale bez **shardingu**;
 zob. [Convert a Standalone to a Replica Set](https://docs.mongodb.com/manual/tutorial/convert-standalone-to-replica-set/).
 
-Plik **README.md** powinien zawierać dokumentację projektu oraz
-imię i nazwisko autora.
+Plik **README.md** lub **README.adoc** powinien zawierać dokumentację projektu
+oraz imię i nazwisko autora.
 
 <!-- forked from
   [steveren/ruby-driver-sample-app](https://github.com/steveren/ruby-driver-sample-app).
@@ -53,8 +53,8 @@ lub jednym z języków Node.js, Python lub Ruby. Wyniki agregacji można
 przekształcać za pomocą poleceń powłoki Bash, programu [jq](https://stedolan.github.io/jq/),
 [R](https://www.r-project.org) lub innych programów zainstalowanych na Sigmie.
 
-Plik **README.md** powinien zawierać dokumentację projektu oraz
-imiona i nazwiska autorów.
+Plik **README.md** lub **README.adoc** powinien zawierać dokumentację projektu
+oraz imiona i nazwiska autorów.
 
 
 ## Simple Rules for Reproducible Computations
